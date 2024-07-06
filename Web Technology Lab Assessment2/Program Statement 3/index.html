@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Change Heading Color</title>
+</head>
+<body>
+<h1 id="heading">Change My Color</h1>
+<button onclick="changeColor('red')">Red</button>
+<button onclick="changeColor('green')">Green</button>
+<button onclick="changeColor('blue')">Blue</button>
+
+<!-- for browser who not support vbscript -->
+<script type="text/javascript">
+  function changeColor(color) {
+    document.getElementById("heading").style.color = color;
+  }
+  </script>
+<script type="text/vbscript">
+Sub changeColor(color)
+  document.getElementById("heading").style.color = color
+End Sub
+</script>
+</body>
+</html>

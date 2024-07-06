@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Image Gallery</title>
+<style>
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .gallery img {
+    width: 100%;
+    height: auto;
+  }
+  .gallery-item {
+    width: 30%;
+    margin-bottom: 20px;
+  }
+  .gallery-item a {
+    display: block;
+    text-decoration: none;
+    color: black;
+  }
+  .caption {
+    text-align: center;
+    padding: 5px;
+  }
+  @media (max-width: 600px) {
+    .gallery-item {
+      width: 100%;
+    }
+  }
+</style>
+</head>
+<body>
+<div class="gallery">
+  <div class="gallery-item">
+    <a href="https://via.placeholder.com/150/92c952">
+      <img src="https://via.placeholder.com/600/92c952" alt="Image 1">
+      <div class="caption">Image 1</div>
+    </a>
+  </div>
+  <div class="gallery-item">
+    <a href="https://via.placeholder.com/150/771796">
+      <img src="https://via.placeholder.com/600/771796" alt="Image 2">
+      <div class="caption">Image 2</div>
+    </a>
+  </div>
+  <div class="gallery-item">
+    <a href="https://via.placeholder.com/150/24f355">
+      <img src="https://via.placeholder.com/600/24f355" alt="Image 3">
+      <div class="caption">Image 3</div>
+    </a>
+  </div>
+</div>
+</body>
+</html>

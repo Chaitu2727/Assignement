@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students>
+  <student id="1">
+    <name>John Doe</name>
+    <grade>A</grade>
+  </student>
+  <student id="2">
+    <name>Jane Smith</name>
+    <grade>B</grade>
+  </student>
+  <student id="3">
+    <name>Emily Johnson</name>
+    <grade>A+</grade>
+  </student>
+</students>

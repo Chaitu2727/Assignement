@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bookstore>
+  <book>
+    <title>Example Book Title 1</title>
+    <author>Author Name 1</author>
+    <publication_year>2021</publication_year>
+    <genre>Fiction</genre>
+    <price>29.99</price>
+  </book>
+  <book>
+    <title>Example Book Title 2</title>
+    <author>Author Name 2</author>
+    <publication_year>2019</publication_year>
+    <genre>Non-Fiction</genre>
+    <price>19.99</price>
+  </book>
+  <book>
+    <title>Example Book Title 3</title>
+    <author>Author Name 3</author>
+    <publication_year>2018</publication_year>
+    <genre>Science Fiction</genre>
+    <price>24.99</price>
+  </book>
+</bookstore>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Change Text</title>
+</head>
+<body>
+<p id="textParagraph">Original Text</p>
+<button onclick="changeText()">Change Text</button>
+
+<!-- for browser who not support vbscript -->
+<script type="text/javascript">
+  function changeText() {
+    if(document.getElementById("textParagraph").innerText === 'Updated Text' ){
+      document.getElementById("textParagraph").innerText = "Original Text"
+    }else{
+      document.getElementById("textParagraph").innerText = "Updated Text"
+    }
+  }
+  </script>
+<script type="text/vbscript">
+Sub changeText()
+  IF document.getElementById("textParagraph").innerText === 'Updated Text' Then
+    document.getElementById("textParagraph").innerText = "Original Text"
+  Else 
+    document.getElementById("textParagraph").innerText = "Updated Text"
+  End If
+End Sub
+</script>
+</body>
+</html>
